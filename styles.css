@@ -22,32 +22,35 @@ header {
 
 .social-media-icons {
     position: relative;
-    width: 200px; /* Adjust as needed */
-    height: 200px; /* Adjust as needed */
-    margin: 20px auto; /* Center the container and add space */
+    width: 300px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    margin: 0 auto; /* Center the container */
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .social-media-icons a {
-    position: absolute;
-    width: 30px;
-    height: 30px;
-    transform-origin: 100px 100px; /* Center of the container */
+    position: relative;
+    width: 40px; /* Adjust icon size */
+    height: 40px; /* Adjust icon size */
+    transform-origin: center bottom;
 }
 
 .social-media-icons a:nth-child(1) {
-    transform: rotate(225deg) translate(100px) rotate(-225deg); /* Adjust the angle to curve downwards */
+    transform: rotate(-30deg);
 }
 
 .social-media-icons a:nth-child(2) {
-    transform: rotate(270deg) translate(100px) rotate(-270deg); /* Adjust the angle to curve downwards */
+    transform: rotate(-10deg);
 }
 
 .social-media-icons a:nth-child(3) {
-    transform: rotate(315deg) translate(100px) rotate(-315deg); /* Adjust the angle to curve downwards */
+    transform: rotate(10deg);
 }
 
 .social-media-icons a:nth-child(4) {
-    transform: rotate(360deg) translate(100px) rotate(-360deg); /* Adjust the angle to curve downwards */
+    transform: rotate(30deg);
 }
 
 .social-media-icons a img {
