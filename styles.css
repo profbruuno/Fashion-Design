@@ -22,39 +22,44 @@ header {
 
 .social-media-icons {
     position: relative;
-    width: 300px; /* Adjust width as needed */
-    height: 150px; /* Adjust height as needed */
+    width: 200px; /* Adjust width as needed */
+    height: 200px; /* Adjust height as needed */
     margin: 0 auto; /* Center the container */
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
 }
 
 .social-media-icons a {
-    position: relative;
+    position: absolute;
     width: 40px; /* Adjust icon size */
     height: 40px; /* Adjust icon size */
-    transform-origin: center bottom;
 }
 
 .social-media-icons a:nth-child(1) {
-    transform: rotate(-30deg);
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
 }
 
 .social-media-icons a:nth-child(2) {
-    transform: rotate(-10deg);
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 .social-media-icons a:nth-child(3) {
-    transform: rotate(10deg);
+    top: 0;
+    right: 50%;
+    transform: translateX(50%);
 }
 
 .social-media-icons a:nth-child(4) {
-    transform: rotate(30deg);
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
 }
 
-.social-media-icons a img {
+social-media-icons a img {
     width: 100%; /* Ensures the image fits within the anchor */
+    border-radius: 50%;
 }
 
 nav {
