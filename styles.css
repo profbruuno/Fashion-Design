@@ -22,9 +22,9 @@ header {
 
 .social-media-icons {
     position: relative;
-    width: 200px; /* Adjust width as needed */
-    height: 200px; /* Adjust height as needed */
-    margin: 0 auto; /* Center the container */
+    width: 300px; /* Adjust width as needed */
+    height: 150px; /* Adjust height as needed */
+    margin: 20px auto; /* Center the container and add space below the header */
 }
 
 .social-media-icons a {
@@ -47,8 +47,8 @@ header {
 
 .social-media-icons a:nth-child(3) {
     top: 0;
-    right: 50%;
-    transform: translateX(50%);
+    left: 50%;
+    transform: translateX(-150%);
 }
 
 .social-media-icons a:nth-child(4) {
@@ -57,13 +57,13 @@ header {
     transform: translateY(-50%);
 }
 
-social-media-icons a img {
+.social-media-icons a img {
     width: 100%; /* Ensures the image fits within the anchor */
     border-radius: 50%;
 }
 
 nav {
-    margin-top: 20px;
+    margin-top: 40px; /* Add margin to separate from social media icons */
 }
 
 nav button {
@@ -113,17 +113,14 @@ footer {
 
     .social-media-icons {
         flex-direction: column;
+        margin-top: 20px;
     }
 
-    .social-media-icons a img {
-        width: 25px;
+    .social-media-icons a {
         margin: 10px 0;
     }
-}
 
-@media (max-width: 480px) {
     .social-media-icons a img {
         width: 25px;
-        margin: 0 5px;
     }
 }
