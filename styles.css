@@ -35,19 +35,19 @@ header {
 }
 
 .social-media-icons a:nth-child(1) {
-    transform: rotate(0deg) translate(100px) rotate(0deg);
+    transform: rotate(315deg) translate(100px) rotate(-315deg);
 }
 
 .social-media-icons a:nth-child(2) {
-    transform: rotate(90deg) translate(100px) rotate(-90deg);
+    transform: rotate(0deg) translate(100px) rotate(0deg);
 }
 
 .social-media-icons a:nth-child(3) {
-    transform: rotate(180deg) translate(100px) rotate(-180deg);
+    transform: rotate(45deg) translate(100px) rotate(-45deg);
 }
 
 .social-media-icons a:nth-child(4) {
-    transform: rotate(270deg) translate(100px) rotate(-270deg);
+    transform: rotate(90deg) translate(100px) rotate(-90deg);
 }
 
 .social-media-icons a img {
